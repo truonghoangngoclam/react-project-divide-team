@@ -7,7 +7,7 @@ import style from './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className={style.App}>
           <div className="container">
             <h1>Hello worlk !!! my name is Jay </h1>
             <button className={style.button+" btn btn-primary btn-lg"}>Sothing with button</button>
