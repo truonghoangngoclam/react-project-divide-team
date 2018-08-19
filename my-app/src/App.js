@@ -1,18 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Person from './person/Person';
+import style from './App.css';
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <div className="container">
+            <h1>Hello worlk !!! my name is Jay </h1>
+            <button className={style.button+" btn btn-primary btn-lg"}>Sothing with button</button>
+            <Person name="MB" old="12">My baby</Person>
+            <Person name="JAY" old="13">Jayja</Person>
+          </div>
       </div>
     );
   }
